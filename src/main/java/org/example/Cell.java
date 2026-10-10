@@ -18,6 +18,20 @@ public class Cell {
         this.wallRight = true;
     }
 
+    public void removeTopWall() {
+        wallTop = true;
+    }
+    public void removeBottomWall() {
+        wallBottom = true;
+    }
+    public void removeLeftWall() {
+        wallLeft = true;
+    }
+    public void removeRightWall() {
+        wallRight = true;
+    }
+
+
     public int getRow() {
         return row;
     }

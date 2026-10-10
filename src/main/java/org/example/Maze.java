@@ -32,5 +32,11 @@ public class Maze {
         return cells[row][column];
     }
 
+    public int getWidth() {
+        return width;
+    }
 
+    public int getHeight() {
+        return height;
+    }
 }
