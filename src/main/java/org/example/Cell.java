@@ -19,16 +19,16 @@ public class Cell {
     }
 
     public void removeTopWall() {
-        wallTop = true;
+        wallTop = false;
     }
     public void removeBottomWall() {
-        wallBottom = true;
+        wallBottom = false;
     }
     public void removeLeftWall() {
-        wallLeft = true;
+        wallLeft = false;
     }
     public void removeRightWall() {
-        wallRight = true;
+        wallRight = false;
     }
 
 
@@ -38,5 +38,21 @@ public class Cell {
 
     public int getColumn() {
         return column;
+    }
+
+    public boolean isWallTop() {
+        return wallTop;
+    }
+
+    public boolean isWallBottom() {
+        return wallBottom;
+    }
+
+    public boolean isWallLeft() {
+        return wallLeft;
+    }
+
+    public boolean isWallRight() {
+        return wallRight;
     }
 }

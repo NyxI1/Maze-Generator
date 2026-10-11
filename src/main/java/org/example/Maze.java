@@ -39,4 +39,8 @@ public class Maze {
     public int getHeight() {
         return height;
     }
+
+    public Cell[][] getCells() {
+        return cells;
+    }
 }

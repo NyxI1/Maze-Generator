@@ -46,9 +46,6 @@ public class MazeGenerator {
                     currentCell.getColumn() + 1
             ));
         }
-        else {
-
-        }
         return neighboringCells;
     }
 
